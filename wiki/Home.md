@@ -1,15 +1,15 @@
-# SigmaOS-sigmaos-motor
+# SigmaOS-motor
 
 SigmaOS integration component for **Motor theme**.
 
 ## Commands
 
 ```bash
-sigmaos-sigmaos-motor install   # install package + deploy defaults
-sigmaos-sigmaos-motor deploy    # copy config templates to $HOME
-sigmaos-sigmaos-motor status    # binary/package/config report
-sigmaos-sigmaos-motor reset     # remove deployed config
-sigmaos-sigmaos-motor open      # launch the application
+sigmaos-motor install   # install package + deploy defaults
+sigmaos-motor deploy    # copy config templates to $HOME
+sigmaos-motor status    # binary/package/config report
+sigmaos-motor reset     # remove deployed config
+sigmaos-motor open      # launch the application
 ```
 
 ## Design

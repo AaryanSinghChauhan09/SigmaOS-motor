@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# sigmaos-sigmaos-motor — SigmaOS component manager for sigmaos-motor (Motor theme).
+# sigmaos-motor — SigmaOS component manager for sigmaos-motor (Motor theme).
 set -euo pipefail
 APP="sigmaos-motor"
 PKG="motor-theme"
@@ -8,7 +8,7 @@ CFGDIR="$HOME/.config/gtk-3.0"
 CFGFILE="settings.ini"
 HERE="$(cd "$(dirname "$0")" && pwd)"
 
-log() { echo "sigmaos-sigmaos-motor: $*" >&2; }
+log() { echo "sigmaos-motor: $*" >&2; }
 
 cmd="${1:-status}"
 case "$cmd" in
@@ -37,5 +37,5 @@ case "$cmd" in
   open|launch)
     command -v "$BIN" >/dev/null 2>&1 && exec "$BIN" "${@:2}" || { log "$BIN not installed"; exit 1; }
     ;;
-  *) echo "usage: sigmaos-sigmaos-motor install|deploy|status|reset|open [args]" >&2; exit 2;;
+  *) echo "usage: sigmaos-motor install|deploy|status|reset|open [args]" >&2; exit 2;;
 esac

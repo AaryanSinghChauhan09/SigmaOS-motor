@@ -1,5 +1,5 @@
 [component]
-name = "SigmaOS-sigmaos-motor"
+name = "SigmaOS-motor"
 tier = 2
 stability = "beta"
 language = "shell"
